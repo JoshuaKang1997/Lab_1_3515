@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"you have changed the text", Toast.LENGTH_LONG)
                         .show();
                 TextView tv = (TextView)findViewById(R.id.textView);
-                tv.setText("Welcome to android");
+                tv.setText("What's up");
             }
         });
     }
